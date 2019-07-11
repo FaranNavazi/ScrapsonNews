@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scrapson News</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navbar navbar-light bg-light">
+        <h1>Scrapson News</h1>
+          <form class="form-inline">
+            <button class="btn btn-outline-success" type="button" href="/scrape">Get Articles</button>
+            <button class="btn btn-outline-danger" type="button" style="margin-left: 2.5em;">Save Article</button>
+          </form>
+        </nav>
+    <div id="wrapper">
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
